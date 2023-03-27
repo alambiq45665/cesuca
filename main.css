@@ -1,0 +1,87 @@
+.centralizar {
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    top: 18%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centralizarTexto {
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    top: 25%;
+    left: 49%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centralizarImagem {
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    top: 34%;
+    left: 49%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centralizarTexto2 {
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    top: 62%;
+    left: 49%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centralizarTexto3 {
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    top: 70%;
+    left: 49%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centralizarImagem2 {
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centralizarTexto4 {
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    top: 107%;
+    left: 49%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  
+  .background {
+    background-color: rgb(38, 38, 141) !important;
+  }
+  
+  .colorFont {
+    color: white !important;
+  }
+  
+  img {
+    transition: transform 1s;
+    transform: translateX(2) scale(2.0);
+  }
+  
+  img:hover,
+  img:focus {
+    background: red;
+    transform: translateX(10px) scale(1.1);
+  }
